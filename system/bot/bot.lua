@@ -244,10 +244,9 @@ function create_config( )
     "whitelist"
     },
     vip_users = {111111111}, --vipe users
-    sudo_users = {215523572},--Sudo users
+    sudo_users = {78246181},--Sudo users
     support_gp = {111111111},--Support id
     moderation = {data = 'system/data/adv.json'},
-  }
   serialize_to_file(config, './system/data/config.lua')
   print('کانفیگ ذخیره شد')
 end
